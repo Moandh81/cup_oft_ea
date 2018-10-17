@@ -106,3 +106,61 @@ header nav ul li a {
 
 
 }
+
+
+
+
+
+main {
+	background-color: #f2f2f2;
+}
+
+
+h1, img[src="img/offre-noel.jpg"] , main > p, .flexslider  {
+	display:none;
+}
+
+
+.choix-the {
+	padding-top: 1px;
+	margin-top: 25px;
+	background-color:white; 
+}
+
+.choix-the h2 {
+	font-family: 'Amaranth', sans-serif;
+	color:#95a60a;
+	text-align: center;
+	display: block;
+	width:50%;
+	margin: 0 auto;
+
+
+}
+
+.choix-the  hr {
+	display:inline-block;
+	
+}
+
+
+.choix-the ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+	padding-left: 0;
+}
+
+.choix-the ul li {
+	list-style-type: none;
+	text-align: center;
+	font-family: 'Amaranth', sans-serif;
+	font-size: 1.25em;
+	color:#65666b;
+	width:50%;
+	display:inline-block;
+
+}
