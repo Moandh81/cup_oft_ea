@@ -442,6 +442,117 @@ opacity: .6;
 	padding-top: 50px;
 }
 
+
+
+.ref-produit {
+	text-align: 	center;	
+}
+
+.ref-produit h1 {
+	font-family: 'Amaranth', sans-serif;
+	color:#71686d;
+
+}
+
+
+.ref-produit h2 {
+		color:#71686d;
+		font-family: 'Open Sans', sans-serif;
+}
+
+
+.ref-produit h3 {
+			color:#71686d;
+		font-family: 'Open Sans', sans-serif;
+		font-style: italic;	
+}
+
+
+.rating {
+	text-align: center;	
+}
+
+.rating i {
+	color:#fed815;
+}
+
+
+.rating i:nth-of-type(5) {
+	color:#959796;
+}
+
+.rating span {
+	color: #8ead09;
+	font-family: 'Open Sans', sans-serif;
+
+} 
+
+.img-produit img {
+	display:block;
+	margin:40px auto 20px auto;
+}
+
+.shop {
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+.shop select {
+	background-color: #fbfbfb;
+	font-family: 'Open Sans', sans-serif;
+	width:300px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+
+.shop span {
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+	color:#676863;
+	font-size: 24px;
+
+
+}
+
+.shop a {
+text-decoration:none;
+text-transform: uppercase;
+letter-spacing: 4px;
+background-color: #b09067 ;
+padding:20px 40px;
+font-family: 'Open Sans', sans-serif;
+color:white;
+display: inline-block;
+margin-bottom: 10px;
+margin-top: 30px;
+
+
+}
+
+.shop span:last-of-type {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #9db519;
+}
+
+.shop span:last-of-type i {
+	color:#ee867d;	 
+}
+
+
+.description-produit {
+	margin: 0 auto;
+	text-align: center;
+	width:80%;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 50px;
+
+
+}
+
 /* Version tablette */
 
 @media screen and (min-width: 768px) {
@@ -521,6 +632,7 @@ footer .container {
 	display:inline-block;
 	width: 50%;
 	margin-right: 7%;
+	margin-left: 10px;
 }
 
 
@@ -528,6 +640,7 @@ footer .container {
 	float:right;
 	width: 50%;
 	margin-left: 7%;
+	margin-right: 10px;
 }
 
 
@@ -547,6 +660,8 @@ footer .container {
 main {
 	padding-bottom: 50px;
 }
+
+
 
 
 }
