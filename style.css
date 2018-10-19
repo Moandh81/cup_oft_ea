@@ -352,6 +352,22 @@ opacity: .6;
 
 @media screen and (min-width: 768px) {
 
+
+header {
+	position:relative;
+}
+
+header img[src="img/ribbon.svg"] {
+	display:block;
+	position:absolute;
+	top:0;
+	right:0;
+	width:80px;
+	height:80px;
+
+}
+
+
 h1 {
 	display: block;
 	color:#98b414;
@@ -399,13 +415,55 @@ footer .container {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: stretch;
 	align-content: stretch;
 }
 
-footer .container .cup-of-tea {
-	border:solid 1px red;
+
+}
+
+
+
+/* version desktop  */
+
+
+
+@media screen and (min-width: 1024px) {
+
+body {
+	background-color: #f2f2f2;
+}
+
+main {
+	max-width: 1100px;
+	margin:0 auto;
+}
+
+main > p {
+	display:block;
+	font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.choix-the {
+	padding-bottom: 10px;
+}
+
+.choix-the ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+
+}
+
+
+.choix-the ul li {
+	width: auto;
 }
 
 }
