@@ -346,3 +346,66 @@ opacity: .6;
 .trois-wa a {
 	color:white;
 }
+
+
+/* Version tablette */
+
+@media screen and (min-width: 768px) {
+
+h1 {
+	display: block;
+	color:#98b414;
+	font-family: 'Amaranth', sans-serif;
+	margin:0 auto;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px; 
+
+
+}
+
+
+img[src="img/offre-noel.jpg"] {
+	display:block;
+	width:100%;
+}
+
+
+main > p {
+	display:block;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.flexslider {
+	display:block;
+}
+
+footer .features ul  {
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+
+}
+
+
+footer .container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+footer .container .cup-of-tea {
+	border:solid 1px red;
+}
+
+}
