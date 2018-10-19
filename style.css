@@ -447,6 +447,8 @@ main > p {
 
 }
 
+
+
 .choix-the {
 	padding-bottom: 10px;
 }
@@ -464,6 +466,18 @@ main > p {
 
 .choix-the ul li {
 	width: auto;
+}
+
+
+.produits {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+	margin-bottom: 50px;
+
 }
 
 }
