@@ -164,3 +164,75 @@ h1, img[src="img/offre-noel.jpg"] , main > p, .flexslider  {
 	display:inline-block;
 
 }
+
+
+.produits {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+	text-align: center;
+	margin-top: 24px;
+	margin-bottom: 24px;
+	background-color: white;
+
+}
+
+
+.produits article {
+	border: solid 1px red;
+	/* padding-bottom: 25px; */
+}
+
+
+.produits article h3,
+.produits article h4 {
+		font-family: 'Amaranth', sans-serif;
+
+}
+
+
+
+.produits article h3 {
+	font-size:1.5em;
+	color: #98b900;
+}
+
+
+.produits article h4 {
+ font-size: 1.25em;
+ color: #6d665e;
+}
+
+
+.produits article p {
+		font-family: 'Open Sans', sans-serif;
+		padding-left: 5%;
+		padding-right: 5%;
+		line-height: 24px;
+
+}
+
+
+.produits article p span   {
+	font-weight: bold ;
+	
+}
+
+
+.produits article a {
+
+text-decoration:none;
+text-transform: uppercase;
+letter-spacing: 4px;
+background-color: #b09067 ;
+padding:20px;
+font-family: 'Open Sans', sans-serif;
+color:white;
+display: inline-block;
+margin-bottom: 30px;
+margin-top: 30px;
+
+}
