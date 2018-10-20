@@ -472,7 +472,7 @@ opacity: .6;
 .rating {
 	text-align: center;	
 	border:solid 1px blue;
-	margin:20px auto;
+	 margin:20px auto; 
 }
 
 .rating i {
@@ -748,4 +748,49 @@ main > p {
 	align-items: stretch;
 	align-content: stretch;
 }
+
+
+.fiche-produit {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+	border:solid 1px red;
+}
+
+.rating{
+	margin:0;
+	padding-top: 50px;
+
+}
+
+.shop {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+	border:solid 1px red;
+	margin-top: 20px;
+}
+
+
+
+.shop-product {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+
+.description-produit {
+	border:solid 1px red;
+	margin-left: 0;
+} 
 }
