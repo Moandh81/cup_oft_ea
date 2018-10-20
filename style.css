@@ -568,7 +568,7 @@ margin-top: 30px;
 	margin-bottom: 20px;
 	padding-top: 1px;
 	background-color:white;
-	
+
 }
 
 
@@ -865,5 +865,30 @@ main > p {
 
 .description-produit {
 	margin-left: 0;
-} 
+}
+
+
+.the-noir {
+	padding-top: 50px;
+}
+.the-noir > img {
+	display:inline;
+	float:left;
+}
+
+.the-noir h2 {
+	margin-top: 0;
+}
+
+
+.the-listing {
+	clear:both;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
+}
+
 }
