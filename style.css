@@ -446,7 +446,6 @@ opacity: .6;
 
 .ref-produit {
 	text-align: center;
-	border:solid 1px blue;	
 }
 
 .ref-produit h1 {
@@ -471,7 +470,6 @@ opacity: .6;
 
 .rating {
 	text-align: center;	
-	border:solid 1px blue;
 	 margin:20px auto; 
 }
 
@@ -757,7 +755,6 @@ main > p {
 	justify-content: space-between;
 	align-items: stretch;
 	align-content: stretch;
-	border:solid 1px red;
 }
 
 .rating{
@@ -773,7 +770,6 @@ main > p {
 	justify-content: space-between;
 	align-items: stretch;
 	align-content: stretch;
-	border:solid 1px red;
 	margin-top: 20px;
 }
 
@@ -790,7 +786,6 @@ main > p {
 
 
 .description-produit {
-	border:solid 1px red;
 	margin-left: 0;
 } 
 }
