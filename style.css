@@ -445,7 +445,8 @@ opacity: .6;
 
 
 .ref-produit {
-	text-align: 	center;	
+	text-align: center;
+	border:solid 1px blue;	
 }
 
 .ref-produit h1 {
@@ -463,13 +464,15 @@ opacity: .6;
 
 .ref-produit h3 {
 			color:#71686d;
-		font-family: 'Open Sans', sans-serif;
-		font-style: italic;	
+			font-family: 'Open Sans', sans-serif;
+			font-style: italic;	
 }
 
 
 .rating {
 	text-align: center;	
+	border:solid 1px blue;
+	margin:20px auto;
 }
 
 .rating i {
@@ -543,15 +546,28 @@ margin-top: 30px;
 }
 
 
+
+.img-product {
+	margin-bottom: 30px;
+}
+
+
 .description-produit {
 	margin: 0 auto;
-	text-align: center;
+	text-align: left;
 	width:80%;
 	font-family: 'Open Sans', sans-serif;
 	margin-bottom: 50px;
-
-
 }
+
+
+.description-produit .remise {
+	font-weight:bold;
+}
+
+
+
+
 
 /* Version tablette */
 
