@@ -563,9 +563,86 @@ margin-top: 30px;
 	font-weight:bold;
 }
 
+.the-noir {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 1px;
+	background-color:white;
+	
+}
 
 
 
+.the-noir > img {
+	display:none;
+}
+
+
+.the-noir h2, .the-noir h3 {
+		font-family: 'Amaranth', sans-serif;
+}  
+
+.the-noir h2 {
+	color: #96b210;
+	font-size: 20px;
+	text-indent: 20px;
+	margin: 0 5%;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.the-noir h3 {
+	color: #57635f;
+
+}
+
+
+.the-noir > p {
+
+		font-family: 'Open Sans', sans-serif;
+		margin: 0 5%;
+		line-height: 2em;
+		margin-bottom: 20px;
+
+}
+
+
+.the-listing {
+	text-align: center;
+
+}
+
+.the-listing article {
+	margin-bottom: 50px;
+}
+
+
+.the-listing p {
+			font-family: 'Open Sans', sans-serif;
+
+} 
+
+.the-listing p span {
+	font-weight: bold;
+}
+
+
+.the-listing a {
+
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 4px;
+	color:white;
+	background-color: #b09067;
+	padding: 20px;
+	display: inline-block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+
+
+}
 
 
 /* Version tablette */
