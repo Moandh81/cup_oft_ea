@@ -132,11 +132,26 @@ h1, img[src="img/offre-noel.jpg"] , main > p, .flexslider  {
 	color:#95a60a;
 	text-align: center;
 	display: block;
-	width:50%;
+	/* width:50%; */
 	margin: 0 auto;
+	display:flex;
+  	align-items:  center;
+  	margin:1em 0;
+  	text-align: center;
 
 
 }
+
+
+.choix-the h2::before, .choix-the h2::after {
+	content: '';
+  flex:1;
+  margin: 0 .25em;
+  border:none;
+  background-color :#e2e1cf;
+  height:1px;
+}
+
 
 .choix-the  hr {
 	display:inline-block;
@@ -195,7 +210,22 @@ h1, img[src="img/offre-noel.jpg"] , main > p, .flexslider  {
 .produits article h3 {
 	font-size:1.5em;
 	color: #98b900;
+	display:flex;
+  	align-items:  center;
+  
 }
+
+.produits article h3::before,
+.produits article h3::after {
+	content: '';
+  flex:1;
+  margin: 0 .25em;
+  border:none;
+  background-color :#e2e1cf;
+  height:1px;
+}
+
+
 
 
 .produits article h4 {
@@ -586,9 +616,21 @@ margin-top: 30px;
 	color: #96b210;
 	font-size: 20px;
 	text-indent: 20px;
-	margin: 0 5%;
+	/* margin: 0 5%; */
 	margin-top: 50px;
 	margin-bottom: 20px;
+	display:flex;
+  	align-items:  center;
+
+}
+
+.the-noir h2::after {
+  content: '';
+  flex:1;
+  margin: 0 .25em;
+  border:none;
+  background-color :#e2e1cf;
+  height:2px;
 }
 
 .the-noir h3 {
@@ -738,6 +780,20 @@ footer .container {
 
 .fondateur article h2 {
 	margin-bottom: 50px;
+	display:flex;
+  	align-items:  center;
+  	margin:1em 0;
+
+}
+
+
+.fondateur article h2::after {
+  content: '';
+  flex:1;
+  margin: 0 .25em;
+  border:none;
+  background-color :#e2e1cf;
+  height:1px;
 }
 
 .fondateur article p {
